@@ -102,6 +102,29 @@ h2 {
   font-weight: 700;
 }
 
+.hf-badge {
+  display: inline-flex;
+  zoom: 0.8;
+  align-items: center;
+  gap: 4px;
+  margin-top: 3px;
+  padding: 1px 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff8d8;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.hf-badge img {
+  height: 18px;
+  width: auto;
+  mix-blend-mode: multiply;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
